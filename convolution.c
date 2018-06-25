@@ -6,7 +6,6 @@
 static int const IM_size = 2000;
 static int const K_size = 5;
 static int const K_pix = 25;
-//static int const padding = 2;
 
 void convolution(unsigned char *Im,unsigned char *MC,int Mask[][K_size]){
   //int K_pix = K_size*K_size;
