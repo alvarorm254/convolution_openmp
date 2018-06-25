@@ -8,7 +8,6 @@ static int const K_size = 5;
 static int const K_pix = 25;
 
 void convolution(unsigned char *Im,unsigned char *MC,int Mask[][K_size]){
-  //int K_pix = K_size*K_size;
   int my_rank=omp_get_thread_num();
   int thread_count=omp_get_num_threads();
   int hx=IM_size/thread_count;
