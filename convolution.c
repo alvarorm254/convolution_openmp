@@ -1,7 +1,7 @@
 #include "stdio.h"
 #include "omp.h"
 #include "stdlib.h"
-#include "time.h"       /* time */
+#include "time.h"
 #include "math.h"
 static int const IM_size = 2000;
 static int const K_size = 5;
